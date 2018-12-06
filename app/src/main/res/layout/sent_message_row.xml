@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingRight="16dp">
+
+    <LinearLayout
+        android:id="@+id/incoming_layout_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rounded_rectangle_orange"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text"
+            style="@style/chat_text_message_style"
+            android:maxWidth="240dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="6dp"
+            android:text="Rahul Agrawal is a good amsdnasodiasdjajdaoidjaiosdjaod"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/date"
+                android:paddingRight="5dp"
+                android:textSize="@dimen/chat_time_size"
+                android:text="11:15 PM"
+                android:textColor="@color/time_sent_message_color"
+                android:layout_gravity="center_vertical"/>
+
+            <ImageView
+                android:id="@+id/done"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:paddingRight="4dp"
+                android:src="@mipmap/all_done"
+                android:layout_gravity="center_vertical"
+                android:tint="@color/check_mark_color"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

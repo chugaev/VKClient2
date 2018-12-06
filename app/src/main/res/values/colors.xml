@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#517DA2</color>
+    <color name="colorPrimaryDark">#426382</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+    <color name="white">#FFFFFF</color>
+    <color name="sent_message_color">#EFFEDD</color>
+    <color name="time_recieved_message_color">#A6ABAD</color>
+    <color name="time_sent_message_color">#94B580</color>
+    <color name="check_mark_color">#49873A</color>
+    <color name="count_message_color">#61BC45</color>
+</resources>
